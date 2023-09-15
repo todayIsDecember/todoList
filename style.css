@@ -85,8 +85,7 @@ body {
   background: linear-gradient(90deg, bisque 50%, var(--orange) 50%);
   min-height: 100vh;
   height: auto;
-  height: fit-content;
-  padding-bottom: calc(var(--index) * 2); }
+  height: fit-content; }
   .main__section .main__title {
     position: relative;
     top: calc(var(--index) * 1.79);
