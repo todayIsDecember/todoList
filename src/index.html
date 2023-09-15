@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main__section">
+      <h1 class="main__title" style="color: bisque">
+        <span style="color: rgba(255, 169, 0, 1)">tod</span>os
+      </h1>
+      <div class="todo__section">
+        <div class="todo__form__section">
+          <div class="wrapper">
+            <h2 class="form__title title">what needs to be done</h2>
+            <form name="todoForm" class="todoForm">
+              <input
+                type="text"
+                id="todo"
+                placeholder="Write todo here"
+                class="input_todo"
+              />
+              <div class="todo_footer">
+                <input
+                  type="text"
+                  id="writer"
+                  placeholder="Writed by..."
+                  class="input_writer"
+                />
+                <button class="send__button button">send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="todo__list__section">
+          <div class="wrapper">
+            <h2 class="list__title title">Here is your todo list</h2>
+            <div class="todo__list__filter">
+              <button class="button filter__btn active" id="all">All</button>
+              <button class="button filter__btn" id="active">Active</button>
+              <button class="button filter__btn" id="completed">
+                Completed
+              </button>
+            </div>
+            <div class="card__container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

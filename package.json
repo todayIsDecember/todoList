@@ -1,0 +1,47 @@
+{
+  "name": "todoapp-v-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todayIsDecember/todoList.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "Roman Tymkiv",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^29.5.0",
+    "babel-loader": "^9.1.2",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.20.2",
+    "css-loader": "^6.7.3",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "node-sass": "^8.0.0",
+    "path-browserify": "^1.0.1",
+    "prettier": "^2.8.7",
+    "sass-loader": "^13.2.2",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

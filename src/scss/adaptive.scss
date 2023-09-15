@@ -1,0 +1,42 @@
+.main__section {
+  @media (max-width: 500px) {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, bisque 20%, var(--orange) 100%) !important;
+  }
+  .main__title {
+    @media (max-width: 500px) {
+      color: rgba(255,169,0,1) !important;
+    }
+  }
+  .todo__section {
+    @media (max-width: 500px) {
+      flex-direction: column !important;
+    }
+  }
+  .todo__form__section, .todo__list__section {
+    @media (max-width: 500px) {
+      width: 100% !important;
+    }
+  }
+  .todoForm {
+    @media (max-width: 500px) {
+      box-shadow: 5px 5px 17px grey;
+      border: 3px solid var(--orange);
+    }
+  }
+
+  .todo__list__section {
+    @media (max-width: 1200px) {
+
+      padding: 0rem 5rem !important;
+    }
+    @media (max-width: 750px) {
+
+      padding: 0rem 2rem !important;
+    }
+    @media (max-width: 500px) {
+      margin-top: calc(var(--index) * 5);
+      padding: 0 10% !important;
+    }
+  }
+}
