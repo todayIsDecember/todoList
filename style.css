@@ -86,7 +86,7 @@ body {
   min-height: 100vh;
   height: auto;
   height: fit-content;
-  margin-bottom: calc(var(--index) * 2); }
+  padding-bottom: calc(var(--index) * 2); }
   .main__section .main__title {
     position: relative;
     top: calc(var(--index) * 1.79);
